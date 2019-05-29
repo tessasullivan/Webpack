@@ -7,10 +7,14 @@
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
     "build": "webpack --mode development",
     "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
     "lint": "eslint src/*.js"
   },
+  "repository": {
+    "type": "git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Tessa Sullivan",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
