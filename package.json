@@ -1,12 +1,12 @@
 {
-  "name": "ping-pong",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "Ping pong counter",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
     "build": "webpack --mode development",
-    "start": "webpack-dev-server --open",
+    "start": "npm run build; webpack-dev-server --open",
     "watch": "webpack --watch",
     "lint": "eslint src/*.js"
   },

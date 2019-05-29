@@ -1,5 +1,9 @@
-import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { myCode } from './myCode';
+import './styles.css';
+// import { myCode } from './myCode';
+
+$().ready(function(){
+  
+});
